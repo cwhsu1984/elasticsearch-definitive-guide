@@ -19,6 +19,11 @@ Content-Type: text/plain; charset=UTF-8
 Content-Length: 0
 --------------------------------------------------
 
+[NOTE]
+====
+Though you can find `HEAD` with autocomplete, it is not supported in Sense yet. You will see `Oops!` when sending a `HEAD` request. In case this happens, just click `Go back` to return to Kibana and launch Sense again.
+====
+
 And a `404 Not Found` if it doesn't exist:
 
 [source,js]
